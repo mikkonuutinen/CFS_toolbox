@@ -13,10 +13,10 @@
 
 <h2>Software and hardware requirements</h2>
 <p>
-The CFS toolbox requires the installation of MATLAB or GNU/Octave and Psychtoolbox-3. Psychtoolbox-3 is a set of functions for experimental psychology research that runs on multiple platforms (Windows, Mac, Linux) and that makes it easy to present accurately controlled visual and auditory stimuli.
+The CFS toolbox requires the installation of MATLAB or GNU/Octave and Psychtoolbox-3. Psychtoolbox-3 is a set of functions for experimental psychology research that runs on multiple platforms (Windows, Mac, Linux) and that makes it easy to present accurately controlled visual and auditory stimuli. The CFS toolbox has been tested under Windows 7 with MATLAB R2014a and Linux Ubuntu 15.04 with GNU/Octave 4.0. The toolbox versions for both environments are available from the project page. It should be noted that in this version of the CFS toolbox for Linux Ubuntu with the GNU/Octave auditory stimuli are disabled. The problem is expected to be fixed in future versions of the toolbox. 
 </p>
 <p>
-The CFS toolbox has been tested under Windows 7 with MATLAB R2014a and Linux Ubuntu 15.04 with GNU/Octave 4.0. The toolbox versions for both environments are available from the project page. The CFS toolbox draws and plays visual and auditory stimuli using the functions of Screen and PsychPortAudio in Psychtoolbox-3. Screen is a function for precise control of the video display. PsychPortAudio contains a set of parameters for working with sounds. The functionality requires a suitable graphic and audio cards and computer. It is recommended that the user refers to the Psychtoolbox-3 documentation for up-to-date details.
+The CFS toolbox draws and plays visual and auditory stimuli using the functions of Screen and PsychPortAudio in Psychtoolbox-3. Screen is a function for precise control of the video display. PsychPortAudio contains a set of parameters for working with sounds. The functionality requires a suitable graphic and audio cards and computer. It is recommended that the user refers to the Psychtoolbox-3 documentation for up-to-date details.
 
 <h3>Links</h3>                                                                                       
 <ul>                                                                                                      
@@ -79,24 +79,32 @@ OBS. It should be noted that the CFS toolbox shows left noise image when the vis
 
 <h3>Trial parameters</h3>
 <p>
-Each row of the trial parameters file defines the presentation of visual and auditory stimulus for one trial. The number of rows defines the number of trials. Each trial is defined by the four parameters: (1) the location of visual stimulus, (2) the type of visual stimulus (image file), (3) the timing of audio stimulus and (4) the type of audio stimulus (audio file):
+Each row of the trial parameters file defines the presentation of visual and auditory stimulus for one trial. The number of rows defines the number of trials. Each trial is defined by the four parameters: (1) the type of visual stimulus (image file), (2) the location of visual stimulus, (3) the type of audio stimulus (audio file) and (4) the timing of audio stimulus:
 <ul>                                                                                                      
-<li> (1) The location of visual stimulus is set by integer value from 1 to 8. Actual coordinate locations for different integer values are coded in the parameter #3c of the stimulus parameters file.
-<li> (2) In this version of the toolbox there is option to use two different visual stimulus type in experiments. The toolbox reads the visual stimuli from the director "/CFS/visual_stimuli/". The value 1 of the parameter #2 means that the visual stimulus is the image file named as "visual_stimulus_1.png" and the value 2 means "visual_stimulus_2.png".
-<li> (3)  The audio stimulus timing of each trial relative to visual stimulus is set by integer values from 1 to 4. Actual timing values for audio stimuli relative to visual stimuli are coded in the parameter #6 of the stimulus parameters file. 
-<li> (4)  In this version of the toolbox there is option to use two different audio stimulus type in experiment. The audio stimulus files are read from the director "/CFS/audio_stimuli/". The value 1 of the parameter #4 means that the audio file named as "auditory_stimulus_1.wav" is selected for the trial and the value 2 means "auditory_stimulus_2.wav". 
+
+<li> (1) In this version of the toolbox there is option to use two different visual stimulus type in experiments. The toolbox reads the visual stimuli from the director "/CFS/visual_stimuli/". The value 1 means that the visual stimulus is the image file named as "visual_stimulus_1.png" and the value 2 means "visual_stimulus_2.png".
+<li> (2) The location of visual stimulus is set by integer value from 1 to 8. Actual coordinate locations for different integer values are coded in the parameter #3c of the stimulus parameters file.
+<li> (3) In this version of the toolbox there is option to use two different audio stimulus type in experiment. The audio stimulus files are read from the director "/CFS/audio_stimuli/". The value 1 means that the audio file named as "auditory_stimulus_1.wav" is selected for the trial and the value 2 means "auditory_stimulus_2.wav".
+<li> (4) The audio stimulus timing of each trial relative to visual stimulus is set by integer values from 1 to 4. Actual timing values for audio stimuli relative to visual stimuli are coded in the parameter #6 of the stimulus parameters file. 
 </ul> 
 Figure 6. shows an example trial as a function of time.
 </p>
 
-
- 
 <IMG SRC="stimulus_parameters_4.png" width="910" height="369" >
 <p>
-<b>Figure 7.</b>  An example trial (row 3) as a function of time
+<b>Figure 6.</b>  An example trial (row 3) as a function of time
 </p>
 
+<h3>Test settings</h3>
+<p>
+The "test_settings.m" function displays the location and size of experiment window and all elements (such as noise, visual targets and border frames) inside it (Figure 7). This enables the user to ensure that all targets are displaying correctly (e.g., in the correct location on the monitor
+relative to the mirror stereoscope). It is recommeded to run the function before new experiment.
+</p>
 
+<IMG SRC="test_settings.png" width="1204" height="205" >
+<p>
+<b>Figure 7.</b> Test settings function displays eight spatial locations for visual targets set by the stimulus parameters file with the noise (A and B) and without (C)  
+</p>
 
 <h3>Run experiment</h3>
 <p>
@@ -129,7 +137,7 @@ OBS. The sound_start values in the trials 14 and 15 is 100 seconds. In a that wa
 </pre>
 
 <hr>
-<i>Mikko Nuutinen, April 20 2017</i>
+<i>Mikko Nuutinen, May 5 2017</i>
 </td></TR>
 </table>
 </center>
