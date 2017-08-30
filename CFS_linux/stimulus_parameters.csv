@@ -1,0 +1,81 @@
+#parameter,Name,Value
+1,Number of warmup rounds,5
+2a,exp window x1,100
+2a,exp window x2,1280
+2a,exp window y1,100
+2a,exp window y2,720
+2b,bgcolor,128
+2c,fixation_cross_color R,200
+2c,fixation_cross_color G,55
+2c,fixation_csross_color B,35
+2d,fixation_cross_disparity,305
+2e,left noise and info image x1,110
+2e,left noise and info image y1,130
+2e,left noise and info image x2,470
+2e,left noise and info image y2,490
+2e,right noise and info image x1,710
+2e,right noise and info image y1,130
+2e,right noise and info image x2,1070
+2e,right noise and info image y2,490
+2f,left border image x1,60
+2f,left border image y1,80
+2f,left border image x2,520
+2f,left border image y2,540
+2f,right border image x1,660
+2f,right border image y1,80
+2f,right border image x2,1120
+2f,right border image y2,540
+3a,Visual stimulus refresh rate,0.0133
+3b,Visual stimulus fade rate,0.02
+3c,Visual stimuli 1 x1,890
+3c,Visual stimuli 1 y1,310
+3c,Visual stimuli 1 x2,1070
+3c,Visual stimuli 1 y2,490
+3c,Visual stimuli 2 x1,710
+3c,Visual stimuli 2 y1,310
+3c,Visual stimuli 2 x2,890
+3c,Visual stimuli 2 y2,490
+3c,Visual stimuli 3 x1,890
+3c,Visual stimuli 3 y1,130
+3c,Visual stimuli 3 x2,1070
+3c,Visual stimuli 3 y2,310
+3c,Visual stimuli 4 x1,720
+3c,Visual stimuli 4 y1,130
+3c,Visual stimuli 4 x2,890
+3c,Visual stimuli 4 y2,310
+3c,Visual stimuli 5 x1,290
+3c,Visual stimuli 5 y1,310
+3c,Visual stimuli 5 x2,470
+3c,Visual stimuli 5 y2,490
+3c,Visual stimuli 6 x1,110
+3c,Visual stimuli 6 y1,310
+3c,Visual stimuli 6 x2,290
+3c,Visual stimuli 6 y2,490
+3c,Visual stimuli 7 x1,290
+3c,Visual stimuli 7 y1,130
+3c,Visual stimuli 7 x2,470
+3c,Visual stimuli 7 y2,310
+3c,Visual stimuli 8 x1,110
+3c,Visual stimuli 8 y1,130
+3c,Visual stimuli 8 x2,290
+3c,Visual stimuli 8 y2,310
+4a,Noise type,1
+4b,Dead leaves sigma,3
+4c,Noise temporal frequency,10
+4d,Noise variation,15
+4e,Noise intensity range,220
+4f,Noise block size,15
+4g,Noise start timing,1
+4h,Random interval,2
+5,Random trial order,1
+6,Audio stimuli timing 1,-0.4
+6,Audio stimuli timing 2,-0.2
+6,Audio stimuli timing 3,0
+6,Audio stimuli timing 4,0.2
+6,Audio stimuli timing 5,0.4
+6,Audio stimuli timing 6,100
+7,Timeout,26
+8,Disable audio,1
+9a,Answer key 1,1
+9b,Answer key 2,2
+10,Response delay,0

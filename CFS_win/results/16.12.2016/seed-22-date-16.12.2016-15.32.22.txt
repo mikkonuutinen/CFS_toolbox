@@ -1,0 +1,11 @@
+trial	sound_start	sound_file	trial_rand	noise_headstart	pressed	target_pos	answer	stimulus_ori	ansdur	
+1	100.0000	auditory_stimulus_1	6	1.0313	DOWN	OPTION 6	WRONG	visual_stimulus_2	1.2920
+2	0.0000	auditory_stimulus_1	9	1.4244	DOWN	OPTION 1	WRONG	visual_stimulus_1	0.7991
+3	0.4000	auditory_stimulus_1	5	1.1916	DOWN	OPTION 5	WRONG	visual_stimulus_1	0.9403
+4	-0.2000	auditory_stimulus_1	2	1.7037	DOWN	OPTION 2	WRONG	visual_stimulus_2	0.6860
+5	0.0000	auditory_stimulus_1	3	1.3669	UP	OPTION 3	WRONG	visual_stimulus_1	0.7224
+6	-0.2000	auditory_stimulus_1	8	1.7784	UP	OPTION 8	WRONG	visual_stimulus_2	0.7844
+7	0.2000	auditory_stimulus_1	10	1.2397	DOWN	OPTION 2	WRONG	visual_stimulus_2	0.8651
+8	-0.4000	auditory_stimulus_1	1	1.4450	DOWN	OPTION 1	WRONG	visual_stimulus_1	0.9418
+9	-0.4000	auditory_stimulus_1	7	1.4750	UP	OPTION 7	WRONG	visual_stimulus_1	0.6956
+10	0.2000	auditory_stimulus_1	4	1.8181	UP	OPTION 4	WRONG	visual_stimulus_2	0.7802

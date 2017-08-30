@@ -1,0 +1,16 @@
+trial	trial_rand	stimulus_file	stimulus_position	stimulus_start	sound_file	sound_start	answer	ansdur	
+1	2	visual_stimulus_2	OPTION 2	1.1730	auditory_stimulus_2	-0.2000	DOWN	0.8592
+2	13	visual_stimulus_1	OPTION 5	1.0243	auditory_stimulus_1	-0.4000	DOWN	1.0390
+3	4	visual_stimulus_2	OPTION 4	1.9103	auditory_stimulus_2	0.2000	UP	0.7168
+4	8	visual_stimulus_2	OPTION 8	1.4436	auditory_stimulus_2	-0.2000	UP	0.8976
+5	11	visual_stimulus_1	OPTION 3	1.2019	auditory_stimulus_1	0.4000	UP	0.8680
+6	9	visual_stimulus_1	OPTION 1	2.0692	auditory_stimulus_1	0.0000	DOWN	0.6551
+7	5	visual_stimulus_1	OPTION 5	2.7268	auditory_stimulus_1	0.4000	DOWN	0.8524
+8	10	visual_stimulus_2	OPTION 2	1.7710	auditory_stimulus_2	0.2000	DOWN	0.7276
+9	12	visual_stimulus_2	OPTION 4	2.2727	auditory_stimulus_2	100.0000	UP	0.7310
+10	3	visual_stimulus_1	OPTION 3	1.0653	auditory_stimulus_1	0.0000	UP	1.0488
+11	7	visual_stimulus_1	OPTION 7	2.9886	auditory_stimulus_1	-0.4000	UP	0.8608
+12	6	visual_stimulus_2	OPTION 6	1.8601	auditory_stimulus_2	100.0000	DOWN	0.9695
+13	15	visual_stimulus_1	OPTION 7	1.7915	auditory_stimulus_1	0.0000	UP	0.9600
+14	14	visual_stimulus_2	OPTION 6	1.5910	auditory_stimulus_2	-0.2000	DOWN	0.8706
+15	1	visual_stimulus_1	OPTION 1	1.0033	auditory_stimulus_1	-0.4000	DOWN	1.2757
