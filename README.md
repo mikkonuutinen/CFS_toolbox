@@ -4,7 +4,7 @@
 
 This repository contains a MATLAB library for building and conducting continuous flash suppression (CFS) tests. If you use this library or part of it in your research, we kindly ask that you cite the following paper:
 
-M. Nuutinen, T. Mustonen, J. Häkkinen, "CFS MATLAB toolbox: An experiment builder for continuous flash suppression (CFS) task", Behavior Research Methods, 2017, (accepted for publication) doi:xxxxxxxxxxxxxxxxxxxxxxx.
+M. Nuutinen, T. Mustonen, J. Häkkinen, "CFS MATLAB toolbox: An experiment builder for continuous flash suppression (CFS) task", Behavior Research Methods, 2017, https://doi.org/10.3758/s13428-017-0961-z.
 
 The library was developed under Matlab R2014a in Windows 7 and GNU/Octave 4.0 in Linux Ubuntu 14 environments.
 
